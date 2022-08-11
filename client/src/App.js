@@ -1,10 +1,11 @@
-import './App.css';
-import SearchBar from './components/Search';
+import React from "react";
+import "./App.css";
+import Dashboard from "./pages/dashboard";
 
 function App() {
   return (
-    <SearchBar />
-  );
+    <Dashboard />
+  )
 }
 
 export default App;
