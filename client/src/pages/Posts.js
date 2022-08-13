@@ -4,7 +4,7 @@ import { QUERY_POSTS } from '../utils/queries';
 import PostsLog from '../components/PostsLog';
 
 
-const Home = () => {
+const Posts = () => {
     // use useQuery hook to make query request
     const { loading, data } = useQuery(QUERY_POSTS);
     const posts = data?.posts || [];
@@ -27,4 +27,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Posts;
