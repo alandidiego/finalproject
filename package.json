@@ -1,9 +1,89 @@
 {
   "name": "finalproject",
-<<<<<<< HEAD
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "accepts": "^1.3.8",
+    "bson": "^4.6.5",
+    "buffer": "^5.7.1",
+    "array-flatten": "^1.1.1",
+    "base64-js": "^1.5.1",
+    "body-parser": "^1.20.0",
+    "bytes": "^3.1.2",
+    "call-bind": "^1.0.2",
+    "content-disposition": "^0.5.4",
+    "cookie": "^0.5.0",
+    "content-type": "^1.0.4",
+    "denque": "^2.1.0",
+    "debug": "^2.6.9",
+    "cookie-signature": "^1.0.6",
+    "depd": "^2.0.0",
+    "destroy": "^1.2.0",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^1.0.2",
+    "express": "^4.18.1",
+    "escape-html": "^1.0.3",
+    "etag": "^1.8.1",
+    "finalhandler": "^1.2.0",
+    "fresh": "^0.5.2",
+    "forwarded": "^0.2.0",
+    "function-bind": "^1.1.1",
+    "get-intrinsic": "^1.1.2",
+    "has-symbols": "^1.0.3",
+    "has": "^1.0.3",
+    "http-errors": "^2.0.0",
+    "iconv-lite": "^0.4.24",
+    "ieee754": "^1.2.1",
+    "inherits": "^2.0.4",
+    "ip": "^2.0.0",
+    "media-typer": "^0.3.0",
+    "ipaddr.js": "^1.9.1",
+    "kareem": "^2.4.1",
+    "memory-pager": "^1.5.0",
+    "mime": "^1.6.0",
+    "merge-descriptors": "^1.0.1",
+    "methods": "^1.1.2",
+    "mongoose": "^6.5.1",
+    "mongodb": "^4.8.1",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "mongodb-connection-string-url": "^2.5.3",
+    "mquery": "^4.0.3",
+    "mpath": "^0.9.0",
+    "negotiator": "^0.6.3",
+    "ms": "^2.0.0",
+    "object-inspect": "^1.12.2",
+    "on-finished": "^2.4.1",
+    "parseurl": "^1.3.3",
+    "path-to-regexp": "^0.1.7",
+    "proxy-addr": "^2.0.7",
+    "qs": "^6.10.3",
+    "punycode": "^2.1.1",
+    "range-parser": "^1.2.1",
+    "raw-body": "^2.5.1",
+    "saslprep": "^1.0.3",
+    "safe-buffer": "^5.2.1",
+    "safer-buffer": "^2.1.2",
+    "send": "^0.18.0",
+    "serve-static": "^1.15.0",
+    "setprototypeof": "^1.2.0",
+    "side-channel": "^1.0.4",
+    "sift": "^16.0.0",
+    "smart-buffer": "^4.2.0",
+    "sparse-bitfield": "^3.0.3",
+    "socks": "^2.7.0",
+    "statuses": "^2.0.1",
+    "toidentifier": "^1.0.1",
+    "tr46": "^3.0.0",
+    "type-is": "^1.6.18",
+    "utils-merge": "^1.0.1",
+    "unpipe": "^1.0.0",
+    "vary": "^1.1.2",
+    "webidl-conversions": "^7.0.0",
+    "whatwg-url": "^11.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,45 +97,5 @@
   "bugs": {
     "url": "https://github.com/alandidiego/finalproject/issues"
   },
-  "homepage": "https://github.com/alandidiego/finalproject#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "mongoose": "^6.5.1"
-=======
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
->>>>>>> e56fff900863047f304cfa04af6cd7e43a8eb398
-  }
+  "homepage": "https://github.com/alandidiego/finalproject#readme"
 }
