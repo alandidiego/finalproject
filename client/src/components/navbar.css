@@ -1,6 +1,12 @@
 
 .navContainer{
     font-size: 25px;
+   
+    text-transform:none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 
 
 }
