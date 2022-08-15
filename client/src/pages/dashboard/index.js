@@ -1,3 +1,5 @@
+
+
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import Coin from "../../components/Coin";
@@ -58,5 +60,4 @@ function Dashboard() {
         </div>
     );
 }
-
 export default Dashboard;
