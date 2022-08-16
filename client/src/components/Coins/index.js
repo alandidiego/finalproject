@@ -9,7 +9,11 @@ const Coin = ({
     image,
     priceChange,
 }) => {
+
+
+
     return (
+
         <div className="coin-container">
             <div className="coin-row">
                 <div className="coin">

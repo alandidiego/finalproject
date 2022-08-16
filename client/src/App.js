@@ -1,11 +1,15 @@
-import React from "react";
-import "./App.css";
 import Dashboard from "./pages/dashboard";
+import "./style.css";
+
 
 function App() {
+
   return (
-    <Dashboard />
-  )
+    <div >
+      <Dashboard />
+    </div>
+    
+  );
 }
 
 export default App;
