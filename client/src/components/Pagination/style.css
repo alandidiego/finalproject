@@ -1,0 +1,11 @@
+.pagination {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.page-link {
+    color: wheat;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
