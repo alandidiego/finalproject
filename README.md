@@ -1,14 +1,14 @@
 # CRYPTO 
 
-<img src="./images/social-network.gif" alt="Project Image" width="900px"/>
+<img src="./images/" alt="Project Image" width="900px"/>
 
-[For Full Video](https://drive.google.com/file/d/1U-_0fa3hLM9VOnBIlqANQ0mWnAmvU_e0/view)
+[For Full Video](<>)
 
 ## License and Badges
-
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Language](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![Mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alandidiego/finalproject)
@@ -31,7 +31,7 @@ mkdir "folderName"
 cd "newCreatedFolder"
 git init
 git clone https://github.com/egemenelz/social-network.git
-
+code . (will take to VSCode)
 ```
 
 ## Usage
@@ -40,30 +40,32 @@ After opening project with VisualStudio Code
 
 ````
 npm i - will install all the needed dependecies
-npm run app - will start the server
+npm run develop - will start the server and the client side of the app 
 
 ````
 
 ## Features
 
- - Users can create a new user accounts
- - Users can share a thoughts 
- - Users can be friend each other 
- - Users can react each other thoughts
+ - Can create a new user accounts
+ - Can sign into the app with created account
+ - Can share a thought 
+ - Can react each other thoughts
+ - Can search for specific crypto currencies
+ - Can view the crypto currencies information on the dashboard
 
 ## How to Contribute
 
 For contribution, you can reach me out github.
 
 Any addittional questions, You can reach me at;
-- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
-- [GitHub - Egemen](https://github.com/egemenelz)
-- [LinkedIn - Egemen](https://www.linkedin.com/in/josiah-canada-52794b230/)
-- [GitHub - Josiah](https://github.com/Josiah-Canada)
-- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
-- [GitHub - Egemen](https://github.com/egemenelz)
-- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
-- [GitHub - Egemen](https://github.com/egemenelz)
-- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
-- [GitHub - Egemen](https://github.com/egemenelz)
+- [LinkedIn - Egemen Eliz](https://www.linkedin.com/in/egemeneliz/)
+- [GitHub - Egemen Eliz](https://github.com/egemenelz)
+- [LinkedIn - Josiah Canada](https://www.linkedin.com/in/josiah-canada-52794b230/)
+- [GitHub - Josiah Canada](https://github.com/Josiah-Canada)
+- [LinkedIn - Glorieuse Norzea](https://www.linkedin.com/in/)
+- [GitHub - Glorieuse Norzea](https://github.com/)
+- [LinkedIn - Samuel Garcia](https://www.linkedin.com/in/)
+- [GitHub - Samuel Garcia](https://github.com/)
+- [LinkedIn - Alan Di Diego](https://www.linkedin.com/in/)
+- [GitHub - Alan Di Diego](https://github.com/)
 
