@@ -1,16 +1,15 @@
-import React from "react";
-import "./App.css";
-import CoinChart from "./components/CoinChart";
 import Dashboard from "./pages/dashboard";
+import "./style.css";
+
 
 function App() {
+
   return (
+    <div >
+      <Dashboard />
+    </div>
     
-    
-      <Dashboard/>
-    
-    
-  )
+  );
 }
 
 export default App;
