@@ -23,6 +23,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [How To Contribute](#how-to-contribute)
 
 ## Installation
 
@@ -55,9 +56,9 @@ npm run develop - will start the server and the client side of the app
 
 ## How to Contribute
 
-For contribution, you can reach me out github.
+For contribution, you can reach us out github.
 
-Any addittional questions, You can reach me at;
+Any addittional questions, You can reach us at;
 - [LinkedIn - Egemen Eliz](https://www.linkedin.com/in/egemeneliz/)
 - [GitHub - Egemen Eliz](https://github.com/egemenelz)
 - [LinkedIn - Josiah Canada](https://www.linkedin.com/in/josiah-canada-52794b230/)
