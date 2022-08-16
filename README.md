@@ -58,6 +58,12 @@ For contribution, you can reach me out github.
 Any addittional questions, You can reach me at;
 - [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
 - [GitHub - Egemen](https://github.com/egemenelz)
+- [LinkedIn - Egemen](https://www.linkedin.com/in/josiah-canada-52794b230/)
+- [GitHub - Josiah](https://github.com/Josiah-Canada)
+- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
+- [GitHub - Egemen](https://github.com/egemenelz)
+- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
+- [GitHub - Egemen](https://github.com/egemenelz)
+- [LinkedIn - Egemen](https://www.linkedin.com/in/egemeneliz/)
+- [GitHub - Egemen](https://github.com/egemenelz)
 
-#https://github.com/Josiah-Canada
-#https://www.linkedin.com/in/josiah-canada-52794b230/
