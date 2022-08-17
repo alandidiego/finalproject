@@ -111,3 +111,20 @@ p {
 .container-fluid {
   width: 92%;
 }
+.footer{
+  position:fixed;
+  background-color: var(--darker);
+  color: var(--light);
+  left: 0; 
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  font-weight: lighter;
+  font-size: large;
+
+
+}
+
+.display-inline-block {
+  display: inline-block;
+}
