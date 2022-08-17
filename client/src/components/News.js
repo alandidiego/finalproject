@@ -15,7 +15,7 @@ const demoImage = 'https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=Ne
 const News = () => {
 
   const ref = useRef('noreferrer')
-  const {data: cryptoNews} = useGetCryptoNewsQuery({ newsCategory: 'Cryptocurrency', count: 13 })
+  const {data: cryptoNews} = useGetCryptoNewsQuery({ newsCategory: 'Cryptocurrency', count: 5 })
 
   if(!cryptoNews?.value) return "..loading";
   console.log(cryptoNews);
