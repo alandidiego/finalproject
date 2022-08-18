@@ -14,7 +14,7 @@ const navbar = () => {
   return (
     <div className='navContainer'>
 
-      <Menu theme = "dark"> 
+      {/* <Menu theme = "dark"> 
         <Menu.Item icon = {<GlobalOutlined />}>
             <Link to= "news">Crypto News </Link>
         </Menu.Item>
@@ -23,7 +23,7 @@ const navbar = () => {
             <Link to= "dashboard">Crypto Dashboard </Link>
         </Menu.Item>
 
-      </Menu>
+      </Menu> */}
       
     </div>
     

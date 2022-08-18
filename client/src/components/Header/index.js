@@ -2,38 +2,61 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Auth from '../../utils/auth';
 
+
+import Home from  '../../pages/home/Home';
+
+
+
 const Header = () => {
   const logout = event => {
     event.preventDefault();
     Auth.logout();
+   
+
   };
   return (
-    <header className="mb-4 py-2 flex-row align-center">
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
-        <h1>OpenSignal</h1>
+    <header>
+      <div>
 
-        <nav className="text-center">
-          {Auth.loggedIn() ? (
-            <>
-              <Link to="/profile">Profile</Link>
-              <Link to="/dashboard">Dashboard</Link>
-              <Link to="/posts">Blog</Link>
-              <Link to="/news">News</Link>
-              <Link to="/donate">Donate</Link>
-              <a href="/" onClick={logout}>
-        Logout
-      </a>
+        <nav>
+
+          <div className="flex-container">
+              <h1 className="logo">
+                <Link style = {{color: `'#0077FE'` }} to="/home"> &#10044; Opensignal </Link>
+              </h1>
 
 
-            </>
-          ) : (
-            <>
-              <Link to="/donate">Donate</Link>
+              {Auth.loggedIn() ? (
+                  
+          <>
+              <ul className="navigation">
+                      <Link to="/dashboard">Dashboard</Link>
+                      <Link to="/news">News</Link>
+                      <Link to="/posts">Blog</Link>
+                      <li><a href="#">Support</a></li>
+              </ul>
 
-              <Link to="/login">Login</Link>
-              <Link to="/signup">Signup</Link>
-            </>
+            <a className='login' href="/" onClick={logout}>
+              Logout
+            </a>
+
+          </>
+          
+          ):(
+            <section>
+              <div>
+                <ul className="nav-user">
+                <Link className='login' to="/login">Login</Link>
+                <Link className="signup" to="/signup">Signup</Link>
+                </ul>
+              </div>
+             
+            </section>
+            
+             
           )}
+
+          </div>
         </nav>
       </div>
     </header>
@@ -43,3 +66,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+

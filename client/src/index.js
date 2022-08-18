@@ -7,17 +7,28 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import configureStore from './app/store';
 
 
+// ReactDOM.render(
+//   // <Router>
+//     <Provider store={configureStore}>
+//        <App />
+//     </Provider>,
+// {/*   
+//   </Router>, */}
+
+//   document.getElementById('root')
+// );
 
 
 ReactDOM.render(
-  <Router>
-    <Provider store={configureStore}>
-       <App />
-    </Provider>
-  
-    
-  </Router>,
 
+  <React.StrictMode>
+
+    <Provider store={configureStore}>
+      <App />
+  </Provider>,
+
+
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

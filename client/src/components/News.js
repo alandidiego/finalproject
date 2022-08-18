@@ -1,21 +1,19 @@
-import React, {useState, useRef} from 'react'
+import React from 'react'
 
-import { Select, Typography, Row, Card, Avatar, Col } from 'antd';
+import { Typography, Row, Card, Avatar, Col } from 'antd';
 import {useGetCryptoNewsQuery} from '../services/cryptoNews';
 
 import moment from 'moment';
 import "./news.css"
 
 const {Text, Title} = Typography;
-const {Option} = Select;
 
 const demoImage = 'https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News';
 
 
 const News = () => {
 
-  const ref = useRef('noreferrer')
-  const {data: cryptoNews} = useGetCryptoNewsQuery({ newsCategory: 'Cryptocurrency', count: 5 })
+  const {data: cryptoNews} = useGetCryptoNewsQuery({ newsCategory: 'Cryptocurrency', count: 8 })
 
   if(!cryptoNews?.value) return "..loading";
   console.log(cryptoNews);
@@ -29,7 +27,7 @@ const News = () => {
           <Col xs={1} sm={12} lag={8} key={i}>
             <div className='cover-card'></div>
             <Card className='news-card'> 
-              <a href={news.url} target= "_blank">
+              <a href={news.url} >
                 <div className="news-image-container">
                   <img className="img1" src ={news?.image?.thumbnail?.contentUrl || demoImage} alt="news" />
                  

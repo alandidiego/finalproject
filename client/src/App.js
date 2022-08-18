@@ -13,6 +13,11 @@ import Signup from "./pages/Signup";
 import Footer from "./components/Footer"
 
 
+import News from "./components/News"
+
+import Home from "./pages/home/Home";
+
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -41,25 +46,40 @@ function App() {
 
     <ApolloProvider client={client}>
       <Router>
+
+
         <main className="flex-column justify-flex-start min-100-vh">
           <Header />
           <div>
             <Routes>
 
+              <Route 
+
+              path="/home"
+              element={<Home />} />
+              
               <Route
                 path="/login"
                 element={<Login />} />
               <Route
                 path="/signup"
                 element={<Signup />} />
+
               <Route
                 path="/dashboard"
                 element={<Dashboard />} />
 
               <Route
+              path="/news"
+              element={<News />} 
+              />
+
+              <Route
                 path="/posts"
                 element={<Posts />}
               />
+
+
               <Route path="/profile">
                 <Route path=":username" element={<Profile />} />
                 <Route path="/profile" element={<Profile />} />
@@ -67,6 +87,7 @@ function App() {
                 path="*"
                 element={<Dashboard />} />
               </Route>
+
             </Routes>
           </div>
           <Footer />
@@ -75,13 +96,7 @@ function App() {
 
       </Router>
 
-
-
     </ApolloProvider>
-
-
-
-
 
   )
 }
