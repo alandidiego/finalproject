@@ -9,7 +9,7 @@ db.once('open', async () => {
 
     const userData = [];
 
-    for (let i = 0; i < 50; i += 1) {
+    for (let i = 0; i < 7; i += 1) {
         const username = faker.internet.userName();
         const email = faker.internet.email(username);
         const password = faker.internet.password();
@@ -19,7 +19,7 @@ db.once('open', async () => {
 
     const createdUsers = await User.collection.insertMany(userData);
 
-    for (let i = 0; i < 100; i += 1) {
+    for (let i = 0; i < 12; i += 1) {
         const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
         const { _id: userId } = createdUsers.ops[randomUserIndex];
 
@@ -32,7 +32,7 @@ db.once('open', async () => {
     }
 
     let createdPosts = [];
-    for (let i = 0; i < 100; i += 1) {
+    for (let i = 0; i < 7; i += 1) {
         const postText = faker.lorem.words(Math.round(Math.random() * 20) + 1);
 
         const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
@@ -47,7 +47,7 @@ db.once('open', async () => {
         createdPosts.push(createdPost);
     }
 
-    for (let i = 0; i < 100; i += 1) {
+    for (let i = 0; i < 45; i += 1) {
         const commentBody = faker.lorem.word(Math.round(Math.random() * 20) + 1);
 
         const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
