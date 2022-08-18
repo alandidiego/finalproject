@@ -1,8 +1,8 @@
 # CRYPTO 
 
-<img src="./images/" alt="Project Image" width="900px"/>
+![Screen Shot 2022-08-17 at 11 54 17 PM](https://user-images.githubusercontent.com/100814742/185290017-f0d26d41-433f-4948-aec8-cbf6ff7f95de.png)
 
-[For Full Video](<>)
+
 
 ## License and Badges
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
