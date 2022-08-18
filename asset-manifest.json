@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/finalproject/static/css/main.5face34f.css",
+    "main.js": "/finalproject/static/js/main.57724ec8.js",
+    "static/media/3.svg": "/finalproject/static/media/3.9c0fa72b58111409c7a14725de5e60da.svg",
+    "static/media/2.svg": "/finalproject/static/media/2.5dc9426a9f6ed8bd2bd158a899eaabb0.svg",
+    "static/media/1.svg": "/finalproject/static/media/1.b54bd2bcb9d1256e2fc994e23c58ecec.svg",
+    "index.html": "/finalproject/index.html",
+    "main.5face34f.css.map": "/finalproject/static/css/main.5face34f.css.map",
+    "main.57724ec8.js.map": "/finalproject/static/js/main.57724ec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5face34f.css",
+    "static/js/main.57724ec8.js"
+  ]
+}
