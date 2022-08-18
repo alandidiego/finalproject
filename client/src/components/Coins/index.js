@@ -1,5 +1,4 @@
 import React from "react";
-
 import './style.css'
 const Coin = ({
     name,
@@ -11,9 +10,12 @@ const Coin = ({
     priceChange,
 }) => {
 
+
+
     return (
+
         <div className="coin-container">
-            <div className="coin-row" >
+            <div className="coin-row">
                 <div className="coin">
                     <img src={image} alt="crypto" />
                     <h1>{name}</h1>

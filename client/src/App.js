@@ -1,39 +1,90 @@
 
 import React from "react";
+import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./App.css";
+import Header from "./components/Header"
+import Profile from "./pages/Profile"
+import Posts from './pages/Posts'
+import Dashboard from "./pages/dashboard";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Footer from "./components/Footer"
 
-// import CoinChart from "./components/CoinChart";
-
-import Navbar from './components/Navbar';
-import News from "./components/News";
-import Dashboard from './pages/dashboard/index';
 
 
-import {Routes,Route} from 'react-router-dom';
+const httpLink = createHttpLink({
+  uri: '/graphql',
+});
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem('id_token');
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : '',
+    },
+  };
+});
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
 
- 
+
+
+
 
 function App() {
+
   return (
-    <div className="app">
 
-      <div className="news"> 
-        <Navbar />
-      </div>
+    <ApolloProvider client={client}>
+      <Router>
+        <main className="flex-column justify-flex-start min-100-vh">
+          <Header />
+          <div>
+            <Routes>
 
-      <Routes>
-        <Route path="/news" element={<News />}></Route>
-        <Route path = "/dashboard" element={<Dashboard />}></Route>
-        
-      </Routes>
+              <Route
+                path="/login"
+                element={<Login />} />
+              <Route
+                path="/signup"
+                element={<Signup />} />
+              <Route
+                path="/dashboard"
+                element={<Dashboard />} />
 
-    </div>
+              <Route
+                path="/posts"
+                element={<Posts />}
+              />
+              <Route path="/profile">
+                <Route path=":username" element={<Profile />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route
+                path="*"
+                element={<Dashboard />} />
+              </Route>
+            </Routes>
+          </div>
+          <Footer />
+
+        </main>
+
+      </Router>
+
+
+
+    </ApolloProvider>
+
+
+
+
 
   )
 }
 
+
 export default App;
-
-
- 
-

@@ -8,7 +8,7 @@ const resolvers = {
             const params = username ? { username } : {};
             return Post.find(params).sort({ createdAt: -1 });
         },
-        post: async (parent, { _id }) => {
+        post: async (parent, { _id, username }) => {
             return Post.findOne({ _id });
         },
         users: async () => {
