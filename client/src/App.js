@@ -10,7 +10,6 @@ import Posts from './pages/Posts'
 import Dashboard from "./pages/dashboard";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Footer from "./components/Footer"
 
 
 import News from "./components/News"
@@ -90,7 +89,7 @@ function App() {
 
             </Routes>
           </div>
-          <Footer />
+         
 
         </main>
 
@@ -100,6 +99,5 @@ function App() {
 
   )
 }
-
 
 export default App;
